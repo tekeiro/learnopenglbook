@@ -3,13 +3,8 @@
  */
 package learnopenglbook
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello world."
-        }
-}
+import learnopenglbook.chapters.Chap04
 
 fun main(args: Array<String>) {
-    println(App().greeting)
+    Chap04.main(args)
 }
